@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanuja's Personal Blog</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgba(0,0,0,0.2);
+}
+
+nav h2 {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: #ff7e5f;
+  cursor: pointer;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.2);
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h2>Tanuja Blog</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Home -->
+<section id="home" class="hero">
+  <h1>Welcome to Tanuja's Blog</h1>
+  <p>Sharing my journey in coding and creativity</p>
+  <button class="btn">Explore</button>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm Tanuja, a student passionate about web development and design.</p>
+</section>
+
+<!-- Blog -->
+<section id="blog">
+  <h2>My Blog Posts</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>My First Blog</h3>
+      <p>I started learning HTML and created my first webpage.</p>
+    </div>
+
+    <div class="card">
+      <h3>Learning CSS</h3>
+      <p>CSS helps make websites beautiful and responsive.</p>
+    </div>
+
+    <div class="card">
+      <h3>My Coding Journey</h3>
+      <p>I enjoy creating websites and learning new technologies.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: tanuja@example.com</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Tanuja Blog | Hosted on GitHub</p>
+</footer>
+
+</body>
+</html>
